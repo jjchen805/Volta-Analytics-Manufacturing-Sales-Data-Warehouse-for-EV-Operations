@@ -1,4 +1,4 @@
-# 🚗 Volta Analytics — Manufacturing & Sales Data Pipeline (SQL + Python)
+# Volta Analytics — Manufacturing & Sales Data Pipeline (SQL + Python)
 
 ### Overview  
 **Volta Analytics** simulates a full-scale **data warehouse and analytics system** for an electric vehicle (EV) manufacturer.  
@@ -6,7 +6,7 @@ It integrates **PostgreSQL database design**, **SQL-based KPIs**, and **Python-p
 
 ---
 
-## 🧱 System Architecture
+## System Architecture
 
 **Core Components**
 1. **Database Design:** Normalized PostgreSQL schema (3NF) modeling suppliers, parts, plants, vehicles, customers, sales, and service operations.  
@@ -23,7 +23,7 @@ PostgreSQL → psycopg2/Pandas → DataFrames → Plotly Dashboards
 
 ---
 
-## 🗂️ Database Schema
+## Database Schema
 
 The relational schema models key operational entities:
 
@@ -43,7 +43,7 @@ The database follows **ACID properties** to prevent race conditions during concu
 
 ---
 
-## 🧮 Sample Analytics Queries
+## Sample Analytics Queries
 
 ### 1. Monthly Revenue Trend
 ```sql
@@ -76,7 +76,7 @@ JOIN Vehicles v ON s.vin = v.vin
 GROUP BY v.model_name;
 ```
 ---
-## 🧠 Future Extensions
+## Future Extensions
 	•	Integrate IoT/sensor data for real-time production or maintenance analytics.
 	•	Build predictive maintenance model using service record frequencies.
 	•	Deploy interactive dashboards using Streamlit or Dash for real-time KPI monitoring.

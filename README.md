@@ -41,8 +41,6 @@ The relational schema models key operational entities:
 All tables are linked through **foreign key constraints** and optimized for **referential integrity**.  
 The database follows **ACID properties** to prevent race conditions during concurrent inventory updates.
 
-📘 *See* `docs/schema_design.pdf` *for the ER diagram and schema details.*
-
 ---
 
 ## 🧮 Sample Analytics Queries
